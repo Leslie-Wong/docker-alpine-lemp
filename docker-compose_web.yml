@@ -1,0 +1,29 @@
+version: "3.7"
+
+services:
+
+  nginx:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    container_name: "LeslieW-WebServ"
+    restart: always
+    ports:
+      - "8000:8000"
+      - "6001:6001"
+      - "5173:5173"
+      - "80:80"
+    environment:
+      - NGINX_HOST=localhost
+    networks:
+      - dev-network
+
+networks:
+  dev-network:
+    external:
+      name: docker-lesliew-lemp-master_dev-network
+
+
+volumes:
+  dbdata:
+    driver: local

@@ -1,0 +1,31 @@
+version: "3.7"
+
+services:
+
+  nginx:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    container_name: "LeslieW-WebServ"
+    restart: always
+    ports:
+      - "8000:8000"
+      - "6001:6001"
+      - "5173:5173"
+      - "80:80"
+    volumes:
+      - ./docker/php/zz-docker.conf:/usr/local/etc/php-fpm.d/zz-docker.conf
+      - ./docker/php/php-fpm.sock:/var/run/php/php-fpm.sock"
+    environment:
+      - NGINX_HOST=localhost
+    networks:
+      - dev-network
+
+networks:
+  dev-network:
+    driver: bridge
+
+volumes:
+  phpsocket:
+  dbdata:
+    driver: local
