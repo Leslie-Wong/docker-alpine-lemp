@@ -11,7 +11,7 @@ RUN addgroup mysql && \
 RUN apk update && apk upgrade
 
 # RUN apk  add -U --no-cache mariadb
-RUN apk add --update --no-cache mariadb mariadb-client
+RUN apk add --update --no-cache mariadb mariadb-client dos2unix
 
 VOLUME ["/var/lib/mysql"]
 
@@ -20,6 +20,7 @@ COPY scripts/mariadb-server.cnf /etc/my.cnf.d/
 WORKDIR /var/lib/mysql
 # COPY files/init_sql/ /tmp/init_sql
 COPY scripts/entrypoint.sh /entrypoint.sh
+RUN dos2unix /entrypoint.sh
 ENTRYPOINT ["sh", "/entrypoint.sh", "mysql", "/var/lib/mysql"]
 
 EXPOSE 3306
