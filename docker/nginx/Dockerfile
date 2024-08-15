@@ -67,6 +67,7 @@ RUN apk add --no-cache php${PHP_VERSION} \
       # php${PHP_VERSION}-imagick  \
       php${PHP_VERSION}-tidy  \
       # php${PHP_VERSION}-xmlrpc \
+      php${PHP_VERSION}-xmlreader \
       php${PHP_VERSION}-common  \
       php${PHP_VERSION}-cli  \
       php${PHP_VERSION}-opcache  \
