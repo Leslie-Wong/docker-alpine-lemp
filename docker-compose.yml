@@ -16,6 +16,7 @@ services:
       - "8000:8000"
     environment:
       - NGINX_HOST=localhost
+    privileged: true
     networks:
       - dev-network
 
@@ -28,6 +29,7 @@ services:
     environment:
       - MYSQL_DATABASE=leslie_w_db
       - MYSQL_ALLOW_EMPTY_PASSWORD=1
+    privileged: true
     volumes:
       - dbdata:/var/lib/mysql
       - ./logs/mysql/:/var/log/mysql
