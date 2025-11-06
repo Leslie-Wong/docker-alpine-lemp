@@ -38,7 +38,7 @@ services:
       - "3306:3306"
     networks:
       - dev-network
-      
+
 networks:
   dev-network:
     driver: bridge

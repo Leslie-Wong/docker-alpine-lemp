@@ -1,0 +1,62 @@
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+# Time: 240808  8:29:37
+# User@Host: root[root] @ localhost []
+# Thread_id: 17  Schema: imcnetworks_wp  QC_hit: No
+# Query_time: 3.529006  Lock_time: 0.000147  Rows_sent: 15920  Rows_examined: 15920
+# Rows_affected: 0  Bytes_sent: 198728661
+use imcnetworks_wp;
+SET timestamp=1723105777;
+SELECT /*!40001 SQL_NO_CACHE */ `mail_id`, `timestamp`, `host`, `receiver`, `subject`, `message`, `headers`, `attachments`, `error`, `plugin_version` FROM `wp_wpml_mails`;
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
+mariadbd, Version: 10.11.8-MariaDB-log (Alpine Linux). started with:
+Tcp port: 0  Unix socket: (null)
+Time		    Id Command	Argument
